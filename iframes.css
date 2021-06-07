@@ -1,8 +1,8 @@
 *{
-	margin: 0px;
+	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	
+
 }
 body{
  background-image: linear-gradient(45deg, #e0b2c5, #ae83e2,#ff957a);  
@@ -11,8 +11,8 @@ body{
 
 .content{
 height: 2090px;
-border: 10px solid white;
-border-radius: 20px;
+/*border: 10px solid white;
+border-radius: 20px;*/
 margin: auto;
 position:relative; 
 box-sizing: border-box;
@@ -31,12 +31,13 @@ h1{
 }*/
 
 .frame1{
-  width:620px; 
-  height:500px; 
+  width:520px; 
+  height:600px; 
+  box-sizing: border-box
   background-color: white;
   margin: auto; 
-  border: 10px solid white;
-  border-radius: 10px;
+  position:relative; 
+  
 }
 /*
 .frame2{
