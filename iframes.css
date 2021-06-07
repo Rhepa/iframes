@@ -23,12 +23,13 @@ h1{
  font-size:  5em;
 }
 
-.title {
-  margin: auto;
+/*.title {
+  
   height:300px; 
   position:relative; 
- 
-}
+  margin-top: 250px;
+  margin-left: 30px;
+}*/
 
 .frame1{
   width:520px; 
