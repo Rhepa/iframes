@@ -54,6 +54,7 @@ h1{
 .frame2{
   width:520px; 
   height:550px; 
+  box-sizing: border-box;
   background-color: white;
   position:relative;
   margin:auto ; 
