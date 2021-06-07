@@ -110,7 +110,7 @@ body, html {
 
 .content{
   max-width: 800px;
-  /*background-color: red;*/
+
   margin: auto;
 }
 
@@ -136,5 +136,42 @@ body, html {
   border-radius: 20px;
 }
 .iframe2{
+  width:100%;
+}
+
+.frame3{
+  height: 500px;
+  box-sizing: border-box;
+ border:  10px solid white;
+ background-color: white;
+  margin: auto;
+  position:relative;
+  border-radius: 20px;
+}
+.iframe3{
+  width:100%;
+}
+.frame4{
+  height: 500px;
+  box-sizing: border-box;
+ border:  10px solid white;
+ background-color: white;
+  margin: auto;
+  position:relative;
+  border-radius: 20px;
+}
+.iframe4{
+  width:100%;
+}
+.frame5{
+  height: 500px;
+  box-sizing: border-box;
+ border:  10px solid white;
+ background-color: white;
+  margin: auto;
+  position:relative;
+  border-radius: 20px;
+}
+.iframe5{
   width:100%;
 }
