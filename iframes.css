@@ -5,6 +5,7 @@ body{
 .content{
 	height: 1920px;
 	width: 1200px;
+	display: grid;
 border: 10px solid white;
 border-radius: 20px;
 
