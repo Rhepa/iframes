@@ -1,10 +1,11 @@
 body, html {
   height: 100%;
   font-family: "Inconsolata", sans-serif;
-  background-image: linear-gradient(45deg, #e0b2c5, #ae83e2,#ff957a);  
+  /*background-image: linear-gradient(45deg, #e0b2c5, #ae83e2,#ff957a);  */
+  background-color: beige;
 }
 
-.bgimg{
+.cover{
   background-position: center;
   background-size: cover;
   background-image: url("https://cdn.britannica.com/22/206222-131-E921E1FB/Domestic-feline-tabby-cat.jpg");
