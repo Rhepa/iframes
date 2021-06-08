@@ -20,7 +20,6 @@ body{
 h2{
 font-size: 30px;
 text-align: center;
-font-weight: bold;
 }
 strong{
  color: blue;
@@ -45,7 +44,7 @@ strong{
   width:100%;
 }
 
-.frame1, .frame2, .frame4, .iframe4-1 .frame5{
+.frame1, .frame2, .frame4, .frame4-1, .frame5{
   height: 500px;
   box-sizing: border-box;
   border:  10px solid white;
