@@ -17,6 +17,10 @@ body{
   height: 100%;
 }
 
+h2{
+text-align: center;
+}
+
 .title{
   font-size: 90px;
   color: white;
@@ -39,6 +43,18 @@ body{
   border:  10px solid white;
   background-color: white;
   margin: auto;
+  position:relative;
+  border-radius: 20px; 
+}
+.frame4{
+  width: 400px;
+  height: 700px;
+  
+  box-sizing: border-box;
+  border:  10px solid white;
+  background-color: white;
+  margin: auto;
+  text-align: center;
   position:relative;
   border-radius: 20px; 
 }
