@@ -20,10 +20,12 @@ body{
 h2{
 font-size: 30px;
 text-align: center;
+font-weight: bold;
 }
 strong{
  color: blue;
  animation: changecolo 2s infinite;
+
 }
 
 .title{
@@ -39,11 +41,11 @@ strong{
   /*background-image: linear-gradient(45deg, #e0b2c5, #ae83e2,#ff957a);*/
 }
 
-.iframe1, .iframe2, .iframe3, .iframe4, .iframe5{
+.iframe1, .iframe2, .iframe3, .iframe4, .iframe4-1, .iframe5{
   width:100%;
 }
 
-.frame1, .frame2, .frame4, .frame5{
+.frame1, .frame2, .frame4, .iframe4-1 .frame5{
   height: 500px;
   box-sizing: border-box;
   border:  10px solid white;
