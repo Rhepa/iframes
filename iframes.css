@@ -11,7 +11,7 @@ body{
 }
 
 .cover{
-  /*background-position: center;
+  background-position: center;
   background-size: cover;
   background-image: url("https://wallpapercave.com/wp/G8WzHBc.jpg");
   height: 100%;*/
@@ -19,12 +19,9 @@ body{
   height: 400px;
   background-image: url("https://wallpapercave.com/wp/G8WzHBc.jpg");
   box-sizing: border-box;
-
   margin: auto;
-  text-align: center;
+ 
   position:relative;
-
-
 }
 
 h2{
