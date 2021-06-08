@@ -18,26 +18,32 @@ body{
 }
 
 h2{
+font-size: 30px;
 text-align: center;
+}
+strong{
+ color: blue;
+ animation: changecolo 2s infinite;
 }
 
 .title{
   font-size: 90px;
   color: white;
   text-align: center;
-  animation: fadein 0.5s ease-in;
+  animation: fadein 2s;
 }
 
 .content{
   max-width: 700px;
   margin: auto;
+  /*background-image: linear-gradient(45deg, #e0b2c5, #ae83e2,#ff957a);*/
 }
 
 .iframe1, .iframe2, .iframe3, .iframe4, .iframe5{
   width:100%;
 }
 
-.frame1, .frame2, .frame3, .frame4, .frame5{
+.frame1, .frame2, .frame4, .frame5{
   height: 500px;
   box-sizing: border-box;
   border:  10px solid white;
@@ -45,11 +51,11 @@ text-align: center;
   margin: auto;
   position:relative;
   border-radius: 20px; 
+  animation: fadein 1s ease-in;
 }
-.frame4{
+.frame3{
   width: 400px;
   height: 700px;
-  
   box-sizing: border-box;
   border:  10px solid white;
   background-color: white;
@@ -57,12 +63,13 @@ text-align: center;
   text-align: center;
   position:relative;
   border-radius: 20px; 
+  animation: fadein 1s ease-in;
 }
 
 /*ANIMATION*/
-/*:hover{*/
-/*animation: shake 0.5s ease infinite;*/
-/*}*/
+h2:hover{
+animation: shake 0.5s ease infinite;
+}
 
 @keyframes shake {
   0%{transform: rotate(0deg);}
@@ -74,4 +81,9 @@ text-align: center;
 @keyframes fadein {
  0% {opacity: 0;}
  100% {opacity: 1;}
+}
+@keyframes changecolo {
+  0% {color: #e0b2c5;}
+  50% {color: #ae83e2;}
+  100% {color: #ff957a;}
 }
