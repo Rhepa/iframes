@@ -22,6 +22,12 @@ h2{
 font-size: 30px;
 text-align: center;
 }
+
+h3{
+  font-size: 30px;
+text-align: center;
+}
+
 strong{
  color: blue;
  animation: changecolo 2s infinite;
