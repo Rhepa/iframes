@@ -19,8 +19,7 @@ body{
 /*END BACKGROUND*/
 
 /*CONTENT*/
-
-.cover{
+.cover, .endcover{
   box-sizing: border-box;
   margin: auto;
   position:relative;
@@ -34,7 +33,7 @@ body{
   animation: fadein 2s;
 }
 
-.cover1, .iframe1, .iframe2, .iframe3, .iframe4, .iframe4-1, .iframe5{
+.cover1, .endcover1, .iframe1, .iframe2, .iframe3, .iframe4, .iframe4-1, .iframe5{
   width:100%;
 }
 
