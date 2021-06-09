@@ -1,13 +1,24 @@
-   * { 
-            margin: 0;
-            padding: 0;
-        }
+/*BACKGROUND*/
+* { 
+  margin: 0;
+  padding: 0;
+}
 
 body{
   height: 100%;
   font-family: 'Roboto Slab', serif;
- background-image: url("https://i.imgur.com/lxgRxv0.png");
+  background-image: url("https://i.imgur.com/lxgRxv0.png");
 }
+
+.content{
+  max-width: 700px;
+  margin: auto;
+  background-color: #f7f1de;
+  border:  20px solid #f7f1de;
+}
+/*END BACKGROUND*/
+
+/*CONTENT*/
 
 .cover{
   box-sizing: border-box;
@@ -16,39 +27,11 @@ body{
   animation: shake2 1s ease infinite;
 }
 
-h2{
-font-size: 30px;
-text-align: center;
- font-weight: 700;
- }
-
-p{
-  box-sizing: border-box;
-  font-weight: 400;
-    position:relative;
-}
-h3{
-  font-size: 30px;
-text-align: center;
-}
-
-strong{
- color: blue;
- animation: changecolo 2s infinite;
-}
-
 .title{
   font-size: 90px;
   color: white;
   text-align: center;
   animation: fadein 2s;
-}
-
-.content{
-  max-width: 700px;
-  margin: auto;
-  background-color: #f7f1de;
-  border:  20px solid #f7f1de;
 }
 
 .cover1, .iframe1, .iframe2, .iframe3, .iframe4, .iframe4-1, .iframe5{
@@ -76,10 +59,35 @@ strong{
   border-radius: 20px; 
   animation: fadein 1s ease-in;
 }
+/*END CONTENT*/
+
+/*WRITING*/
+h2{
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+
+p{
+  box-sizing: border-box;
+  font-weight: 400;
+  position:relative;
+}
+h3{
+  font-size: 30px;
+  text-align: center;
+}
+
+strong{
+ color: blue;
+ animation: changecolo 2s infinite;
+}
+/*END */
+
 
 /*ANIMATION*/
 h2:hover{
-animation: shake 0.5s ease infinite;
+  animation: shake 0.5s ease infinite;
 }
 @keyframes shake {
   0%{transform: rotate(0deg);}
@@ -89,8 +97,8 @@ animation: shake 0.5s ease infinite;
 }
 @keyframes shake2 {
  0%, 100%{ transform: rotate(-8deg);}
-    50%{ transform: rotate(6deg); }
-  }
+ 50%{ transform: rotate(6deg); }
+}
 @keyframes fadein {
  0% {opacity: 0;}
  100% {opacity: 1;}
@@ -100,3 +108,4 @@ animation: shake 0.5s ease infinite;
   50% {color: #ae83e2;}
   100% {color: #ff957a;}
 }
+/*END ANIMATION
