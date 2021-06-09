@@ -55,9 +55,6 @@ strong{
   margin: auto;
   background-color: #f7f1de;
   border:  20px solid #f7f1de;
-  /*background-color: beige;*/
-
-  
 }
 
 .cover1, .iframe1, .iframe2, .iframe3, .iframe4, .iframe4-1, .iframe5{
@@ -75,7 +72,7 @@ strong{
   animation: fadein 1s ease-in;
 }
 .frame3{
-  width: 400px;
+ 
   height: 700px;
   box-sizing: border-box;
   border:  10px solid white;
@@ -91,7 +88,6 @@ strong{
 h2:hover{
 animation: shake 0.5s ease infinite;
 }
-
 @keyframes shake {
   0%{transform: rotate(0deg);}
   40%  {transform: rotate(5deg);}
